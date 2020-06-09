@@ -1,4 +1,4 @@
-body{
+body .container-fluid{
     padding: 0px;
     margin: 0px;
 }
@@ -25,21 +25,95 @@ body{
     height: 86px;
     left: 138px;
     top: 283px;
-    border: 2px #ccc solid;
+    display: flex;
 }
-.navBox p{
-    /* 
+
+.name{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 70px;
+}
+.navs{
+    flex: 4;
     
-    
-    font-family: Playfair Display; */
-    width: 80px;
-    top: 283px;
-    left: 188px;
+}
+.hotel{
+    flex: 1;
+    color: #FFFFFF;
+    font-family: Playfair Display;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.astaria{
+    flex: 2;
+    color: #FFFFFF;
+    font-family: Playfair Display;
+    text-align: center;
+    font-size: 45px;
+    line-height: 60px;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 32px;
-    /* text-align: center; */
+
+    margin-top:-25px;
+    width: 100%;
+    
+}
+.navs{
+    display: flex;
+    flex-direction: column;
+}
+.upspace{
+    flex: 3;
+}
+ul{
+    flex: 1;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    
+}
+
+ul li {
+    display: inline;
     color: #FFFFFF;
 
+}
+.divider{
+    width: 0.5px;
+    /* height: 60px; */
+    border: 0.5px #FFFFFF solid;
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background: #111111;
+    display: flex;
+}
+.fname{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    margin-top: 150px;
+}
+.line1{
+    flex: 1;
+    margin-top: 150px;
+    font-family: roboto slab;
+}
+
+.line2{
+    flex: 1;
+    margin-top: 150px;
+    font-family: roboto slab;
+}
+.line3{
+    flex: 1;
+    margin-top: 150px;
+    font-family: roboto slab;
+    color: #FFFFFF;
 }
