@@ -88,7 +88,78 @@ ul li {
     /* height: 60px; */
     border: 0.5px #FFFFFF solid;
 }
+/* SECOND ROW; */
+.reserve{
+    background-color: #f4f4f4
+}
+.reserve>h3{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-family: Playfair Display;
+    margin-bottom: 1.5em;
+    color: #333333;
+}
+.reserve>p{
+    text-align: center;
+    color: #666666;
+    font-size: 1.1em;
+    font-weight: thicker;
+    
+}
+.justify-content-center>.btn{
+   background-color: #d4741b;
+    color: white;
+    width: 10em;
+    border-radius: 0.6em;
+    margin: 4em;
+    padding: 0.6em
+}
+.rooms>h3{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: Playfair Display;
+}
+.rooms>p{
+    text-align: center;
+    color: #a0a0a0;
+    font-family: ROBOTO;
+    font-size: 1.2em
+  
+}
+.box{
+    margin: 3.2em;
+    margin-top: 6em;
+    text-align: center
+}
+.box>h4,.col-md-4>h4{
+    color: #424040;
+    margin: 1em;
+}
+.box>p{
+    color: #424040;
+    font-size: 1.05em
+}
+.box>a,.col-md-4>a{
+    color: #d4741b;
+    
+}
+.box-under1{
+    margin-left: 3em
+}
+.box-under2{
+    margin-left: 4em
+}
 
+.col-md-4{
+    text-align: center;
+    margin-top: 6em;
+}
+.col-md-4>p{
+    color: #424040;
+    font-size: 1.3em
+}
 .footer{
     width: 100%;
     height: 400px;
