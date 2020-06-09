@@ -172,6 +172,9 @@ ul li {
         display: flex;
         justify-content: space-between;
     }
+    .lowerbox{
+        width: 70%;
+    }
 }
 .fname{
     flex: 1;
@@ -229,6 +232,10 @@ ul li {
         /* border: 1px #cccccc solid; */
         flex: 3;
     }
+    .lowerbox
+    {
+        
+    }
     
 }
 
@@ -245,8 +252,9 @@ ul li {
 .lowerbox{
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    
     margin: auto;
+    flex-wrap: wrap;
 }
 .checked {
   color: orange;
