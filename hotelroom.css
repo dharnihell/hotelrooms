@@ -262,3 +262,38 @@ ul li {
 .unchecked{
     color: #cccccc;
 }
+
+.testimony{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    width: 100%;
+    
+    flex-wrap: wrap;
+}
+.tesImage{
+    flex: 1;
+    margin: auto;
+    display: flex;
+    
+    flex-basis: 49%;
+}
+.tesText{
+    flex: 1;
+    flex-basis: 49%;
+    
+}
+.texts{
+    width: 300px;
+    
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
